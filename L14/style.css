@@ -1,0 +1,25 @@
+.head {
+  display: flex;
+  background-color: lightgray;
+  font-weight: bold;
+  padding: 5px;
+}
+.title {
+  text-align: center;
+  margin-right: 50px;
+  cursor: pointer;
+  background-color: lightgray;
+  border-bottom: 1px solid transparent;
+}
+.title:hover {
+  background-color: aliceblue;
+}
+.title-active{
+  border-bottom: 1px solid black;
+}
+.block {
+  display: none;
+}
+.block-active {
+  display: block;
+}
