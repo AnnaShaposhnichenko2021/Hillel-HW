@@ -100,9 +100,10 @@ main {
     font-weight: 600;
     text-decoration: none;
   }
-  .a_menu:hover {
+  .a_menu_hover {
     background-color: lightgray;
   }
   .header_menu li {
     margin: 0;
   }
+}

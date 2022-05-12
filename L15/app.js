@@ -9,19 +9,33 @@ class Burger {
     this.burgerMenu = menu;
     this.listItem = list;
     console.log(this.listMenu, this.burgerBtn, this)
-    this.burgerBtn.addEventListener('click', this.onBurgerClick.bind(this));
-    this.burgerMenu.addEventListener('click', this.onMenuClick.bind(this));
+    this.burgerBtn.addEventListener('click', this.onBurgerClick);
+    this.burgerMenu.addEventListener('click', this.onMenuClick);
+    this.burgerMenu.addEventListener('mouseover', this.onMenuHover);
+    this.burgerMenu.addEventListener('mouseout', this.onMenuHoverOff);
   }
 
-  onBurgerClick() {
+  onBurgerClick = () => {
     console.log(this)
     this.burgerMenu.classList.toggle('header_menu_active');
   }
 
-  onMenuClick(event) {
+  onMenuClick = (event) => {
     const target = event.target;
-    if(target.id === listItem.id) {
+    if(target.id === 'list-item') {
       this.burgerMenu.classList.remove('header_menu_active');
+    }
+  }
+  onMenuHover = (event) => {
+    const target = event.target;
+    if(target.id === 'list-item') {
+      target.classList.add('a_menu_hover');
+    }
+  }
+  onMenuHoverOff = (event) => {
+    const target = event.target;
+    if(target.id === 'list-item') {
+      target.classList.remove('a_menu_hover');
     }
   }
 }
