@@ -58,7 +58,6 @@ main {
     z-index: 1;
   }
   
-  /* добавляем "гамбургер" */
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
@@ -76,7 +75,6 @@ main {
     content: '';
     top: 15px;
   }
-  /* контейнер меню */
   .header_menu {
     display: block;
     position: fixed;
