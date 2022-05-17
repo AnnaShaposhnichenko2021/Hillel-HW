@@ -1,0 +1,19 @@
+.input-st {
+  width: 50vw;
+  height: 20px;
+  margin-top: 7px;
+}
+#btn-add {
+  margin: 0 3vw;
+  padding: 10px 20px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.header-block {
+  display: flex;
+  padding: 30px;
+}
