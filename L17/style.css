@@ -1,0 +1,93 @@
+.warp {
+  padding: 10px;
+}
+.item-list-block{
+  display: flex;
+}
+.header-block {
+  display: flex;
+  width: 100%;
+}
+.inp-cont{
+  padding-top: 2px;
+}
+.button-st {
+  margin-left: 40px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 30px;
+}
+.input-st {
+  width: 250px;
+}
+
+.check-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 700px;
+  height: 600px;
+  border: 1px solid #606060;
+  padding: 10px;
+}
+
+.todo-item {
+  width: 200px;
+  height: 70px;
+  border: none;
+  border-radius: 10px;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 10px;
+}
+.todo-item-done {
+  background-color: greenyellow;
+}
+#btn-item {
+  text-align: right;
+  margin-right: 10px;
+}
+.delete {
+  background-color: rgb(255, 140, 0);
+  border-radius: 4px;
+  padding: 0 6px 2px 6px;
+  color: white;
+}
+.button-done {
+  margin-top: 25px;
+}
+#todo-time {
+  padding-top: 10px;
+}
+.todo-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+.edit-block {
+  display: none;
+  width: 300px;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px 0 0 20px;
+}
+.edit-block-active {
+  display: flex;
+}
+.edit-title {
+  font-size: 20px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.input-edit {
+  margin-bottom: 10px;
+}
+.button-save {
+  margin-top: 10px;
+}
